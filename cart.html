@@ -20,9 +20,9 @@
         <div class='Cart-Items'>
             <div class='about'>
 
-                <a href="shop.html" style="text-decoration: none;">
+                <a href="cart.html" style="text-decoration: none;">
                     <h3 class='title'>
-                        <i style="padding-right: 20px; " class="fa fa-trash-o" aria-hidden="true">
+                        <i style="padding-right: 20px; " class="fa fa-trash-o" onclick="delete_product()" aria-hidden="true">
                         </i><span style="color: lightblue" id="titleget"></span>
                     </h3>
                 </a>
@@ -51,9 +51,10 @@
                     <div class='Subtotal'>Sub-Total</div>
                     <div class='items'></div>
                 </div>
-                <div class='total-amount'>$5.99</div>
+                <div class='total-amount' id="total_amount">00</div>
             </div>
-            <button class='button'>Checkout</button>
+            <a href="billing.html"><button class='button'>Checkout</button></a>
+            <a href="shop.html"><button class="button">Continue shopping</button></a>
         </div>
     </div>
 
