@@ -1,51 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/cart.css"> :
+    <link rel="stylesheet" href="css/cart.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>cart</title>
 </head>
-
 <body>
     <div class='Cart-Container'>
         <div class='Header'>
             <h3 class='Heading'>Shopping Cart</h3>
         </div>
-
-
-        <div class='Cart-Items'>
+ <div class='Cart-Items'>
             <div class='about'>
-
                 <a href="cart.html" style="text-decoration: none;">
                     <h3 class='title'>
-                        <i style="padding-right: 20px; " class="fa fa-trash-o" onclick="delete_product()" aria-hidden="true">
-                        </i><span style="color: lightblue" id="titleget"></span>
+                        <span style="color: lightblue" id="titleget"></span>
                     </h3>
                 </a>
             </div>
-            '
-            <div class='counter' style="margin-bottom: 40px;">
-
-                <div class='btn' onclick="increament()">+</div>
-                <div class='count'>
-                    <input type="text" id="textbox" value="1" style="width: 20px;height: 20px;">
-                </div>
-                <div class='btn' onclick="decreament()">-</div>
-
-            </div>
-            <div class='prices'>
-                <span>
-                    $ <span class='amount' id="itemprice">0</span>
-                </span>
-            </div>
-        </div>
-
-        <hr>
-        <div class='checkout'>
+          <hr>
+        <!--<div class='checkout'>
             <div class='total'>
                 <div>
                     <div class='Subtotal'>Sub-Total</div>
@@ -57,10 +34,7 @@
             <a href="shop.html"><button class="button">Continue shopping</button></a>
         </div>
     </div>
-
-
-
-    </div>
+    </div> -->
 
 
     <script src="./js/cart.js"></script>
