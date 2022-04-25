@@ -1,5 +1,6 @@
 //total amount
-const product_total_amount=document.getElementById("total_amount");//total
+const product_total_amount=document.getElementById("total_amount");
+
 
 
 
@@ -10,8 +11,6 @@ const delete_product=(itemIndex)=>{
     parsearr.splice(itemIndex,1);
     localStorage.setItem('products',JSON.stringify(parsearr));
 }
-console.log("hhhh")
-
 // local storage Add
 let products=localStorage.getItem("products");
 const parsearr=JSON.parse(products);
